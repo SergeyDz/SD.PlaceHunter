@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SD.PlaceHunter.Common", "SD.PlaceHunter.Common\SD.PlaceHunter.Common.csproj", "{0B6A921F-D461-4D77-ADC9-7E28FD9B5821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SD.PlaceHunter.Common.Test", "Test\SD.PlaceHunter.Common.Test\SD.PlaceHunter.Common.Test.csproj", "{2F365CBB-FF90-4EA6-9D4D-51281797E504}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{A81D1663-BF68-4B45-9F88-E6A84CF0E109}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{4FD5E69C-180A-4D9B-BEBA-FEB818F89D22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SD.PlaceHunter.Web", "Web\SD.PlaceHunter.Web\SD.PlaceHunter.Web.csproj", "{B81D28BA-88FA-4144-9A3F-A018DCD46CB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{FB700C68-4747-44AC-B2AA-1E97C0F2D40A}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{D1BD7F7F-A024-4056-908C-61087F1FF2C6}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\SDPlaceHunterWeb-WAWS-dev.json = PublishScripts\Configurations\SDPlaceHunterWeb-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B6A921F-D461-4D77-ADC9-7E28FD9B5821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B6A921F-D461-4D77-ADC9-7E28FD9B5821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B6A921F-D461-4D77-ADC9-7E28FD9B5821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B6A921F-D461-4D77-ADC9-7E28FD9B5821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F365CBB-FF90-4EA6-9D4D-51281797E504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F365CBB-FF90-4EA6-9D4D-51281797E504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F365CBB-FF90-4EA6-9D4D-51281797E504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F365CBB-FF90-4EA6-9D4D-51281797E504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B81D28BA-88FA-4144-9A3F-A018DCD46CB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81D28BA-88FA-4144-9A3F-A018DCD46CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81D28BA-88FA-4144-9A3F-A018DCD46CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81D28BA-88FA-4144-9A3F-A018DCD46CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2F365CBB-FF90-4EA6-9D4D-51281797E504} = {A81D1663-BF68-4B45-9F88-E6A84CF0E109}
+		{B81D28BA-88FA-4144-9A3F-A018DCD46CB5} = {4FD5E69C-180A-4D9B-BEBA-FEB818F89D22}
+		{D1BD7F7F-A024-4056-908C-61087F1FF2C6} = {FB700C68-4747-44AC-B2AA-1E97C0F2D40A}
+	EndGlobalSection
+EndGlobal
